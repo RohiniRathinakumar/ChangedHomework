@@ -1,0 +1,366 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1059894300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "steps.BankAndCashSteps.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-30T20:35:18.925Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1693883300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ModBankAndCashSteps.beforReRun()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User should be able to login with valid credentials",
+        "description": "\tand open a new account\t",
+        "id": "techfios-other-billing-login-page-functionality-validation;user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 721953400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ModBankAndCashSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 660790500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"demo@techfios.com\" in the \"username\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@techfios.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_enters_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76649300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"abc123\" in the \"password\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_enters_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1043831900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on \"login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45003400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on Dashboard page.",
+            "match": {
+              "location": "steps.ModBankAndCashSteps.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2053809700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"bankCash\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bankCash\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327624200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on \"newAccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"newAccount\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112813300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"Rohini\u0027s Account\" in the \"accountTitle\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rohini\u0027s Account\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"accountTitle\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88103100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters \"Savings Acc\" in the \"description\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings Acc\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"description\"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88210000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters \"$500000\" in the \"initialBalance\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$500000\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"initialBalance\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107737100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters \"67778432323\" in the \"accountNumber\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"67778432323\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"accountNumber\"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96746400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"Rathinakumar\" in the \"contactPerson\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rathinakumar\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"contactPerson\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100994700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"545332211\" in the \"Phone\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"545332211\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Phone\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162862500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters \"https://www.google.com/\" in the \"internetBankingURL\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"internetBankingURL\"",
+                  "offset": 45
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 984991300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on \"submit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.ModBankAndCashSteps.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5046263400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should be able to validate Account Created Successfully.",
+            "match": {
+              "location": "steps.ModBankAndCashSteps.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression1"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios Other billing login page functionality validation",
+    "description": "",
+    "id": "techfios-other-billing-login-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ModTechfiosBankAndcash.feature",
+    "tags": []
+  }
+]
